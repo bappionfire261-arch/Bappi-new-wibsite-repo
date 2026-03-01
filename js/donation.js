@@ -23,5 +23,11 @@ document.getElementById('donate-btn').addEventListener('click', function (event)
     // set the donation price
     const totalPrice = inputDonation + priceMoney;
     document.getElementById('danation-price').innerText = totalPrice;
-    
-})
+    // .............
+     const p = document.createElement('p');
+   p.innerText = `Donation Added: ${inputDonation} Tk. & Total: ${totalPrice} Tk.`;
+
+   document.getElementById('transaction-history').appendChild(p);
+});
+
+

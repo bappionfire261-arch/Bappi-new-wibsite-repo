@@ -35,16 +35,16 @@
 
        <section class="mb-10">
                  <!-- button section start -->
-    <div class="lg:flex flex  gap-6 mt-10 justify-center">
-        <button class="btn btn-outline">Donation</button>
-        <button class="btn btn-outline">history</button>
+    <div class="lg:flex flex  gap-6 mt-10 sticky top-44 z-50 justify-center">
+        <button id="show-donation-btn" class="btn btn-outline">Donation</button>
+        <button id="show-history-btn" class="btn btn-outline">history</button>
     </div>
       <div class="divider"></div>
                  <!-- button section start -->
        </section>
-    </header class="">
+    </header>
      <!-- donation header2 section -->
-      <header>
+      <header id="header-container">
         <section class="container mt-10 h-auto lg:mt-7 gap-10 border mx-auto rounded-lg ">
               <div class="hero bg--200">
   <div class="hero-content flex-col lg:flex-row px-5">
@@ -125,11 +125,20 @@
            <!--  -->
            
     </section>
-      </header>  
+      </header> 
+           <!-- transaction history start -->
+      <div id="transaction-history" class="text-center">
+        <h1 class="text-5xl text-center font-bold">Transaction History</h1>
+              <div id="transection-container" class="text-center">
+
+          </div>
+      </div>
+     <!-- transaction history end --> 
      
      </main>
      <script src="js/utilices.js"></script>
     <script src="js/changes.js"></script>
     <script src="js/donation.js"></script>
+    <script src="js/button.js"></script>
 </body>
 </html>
