@@ -10,9 +10,9 @@
     <!-- main section -->
      <main>
     <header>
-            <section class="sticky top-0 z-50 ">
+            <section class="sticky top-0 z-50 bg-orange-50 ">
             <!-- navbar section start -->
-            <div class="navbar bg-orange-50 p-10  ">
+            <div class="navbar  p-10 ">
   <div class="navbar-start ml-5">
     <button id="blog-btn" class="btn bg-green-500 px-5">Blog</button>
   </div>
@@ -23,7 +23,7 @@
   <div class="navbar-end mr-10 ">
     <div class=" lg:flex flex justify-center  px-10 gap-2">
         <img class="py-5" src="assets/coin.png" alt="">
-      <h1 class="lg:flex lg:mt-5 mt-5  font-bold"> 5500 </h1>
+      <h1 id="donation-money" class="lg:flex lg:mt-5 mt-5  font-bold"> 5500 </h1>
        <p class="lg:mt-5 mt-5">BDT</p>
        
     </div>
@@ -31,6 +31,7 @@
         <!-- navber sectin end -->
 
         </section>
+ 
 
        <section class="mb-10">
                  <!-- button section start -->
@@ -58,10 +59,10 @@
       </div>
       <h1 class="font-bold mt-3 text-xl">Donate for Flood at Noakhali, Bangladesh</h1>
       <p class="mt-6 text-xl"> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
-      <input type="text" placeholder="Write Donation Amount" class="input input-bordered mt-4 w-full " />
+      <input id="input-donation" type="text" placeholder="Write Donation Amount" class="input input-bordered mt-4 w-full " />
 
      <div>
-         <button class="btn btn-block text-xl mt-5 bg-green-500">Donate Now</button>
+         <button id="donate-btn" class="btn btn-block text-xl mt-5 bg-green-500">Donate Now</button>
      </div>
 
   </div>
@@ -127,6 +128,8 @@
       </header>  
      
      </main>
+     <script src="js/utilices.js"></script>
     <script src="js/changes.js"></script>
+    <script src="js/donation.js"></script>
 </body>
 </html>
